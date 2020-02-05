@@ -101,7 +101,6 @@ export default class PieChart extends Component {
     });
     return (
       <Fragment>
-        <Text style={{fontWeight: 'bold', fontSize: 20, textAlign: 'center'}}>Browser market shares in January, 2018</Text>
         <Svg width={size.width} height={size.height} fill="none">
           <Defs>
             {gradients}
